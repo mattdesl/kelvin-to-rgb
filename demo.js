@@ -14,7 +14,6 @@ function render (dt) {
   time += dt / 1000
   var anim = Math.sin(time) * 0.5 + 0.5
   var K = lerp(start, end, anim)
-  K = 1550
   var rgb = kelvinToRGB(K)
   text.textContent = commas(Math.floor(K)) + ' Kelvin'
   document.body.style.background = colorStyle(rgb)
