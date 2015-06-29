@@ -1,3 +1,6 @@
+// Original implementation by Tanner Helland
+// http://www.tannerhelland.com/4435/convert-temperature-rgb-algorithm-code/
+
 module.exports = kelvinToRGB
 function kelvinToRGB (temp, out) {
   if (!Array.isArray(out)) {

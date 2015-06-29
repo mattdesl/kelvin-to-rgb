@@ -8,7 +8,7 @@
 
 Approximate an `[r, g, b]` color from a Kelvin temperature between 1,500 and 40,000. 
 
-Details and original implementation by Tanner Helland [here](http://www.tannerhelland.com/4435/convert-temperature-rgb-algorithm-code/#comment-24753).
+Details and original implementation by Tanner Helland, [see here](http://www.tannerhelland.com/4435/convert-temperature-rgb-algorithm-code/).
 
 ## Example
 
