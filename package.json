@@ -15,13 +15,16 @@
     "raf-loop": "^1.1.3"
   },
   "devDependencies": {
+    "browserify": "^10.2.4",
     "budo": "^4.1.0",
     "garnish": "^2.1.3",
-    "lerp": "^1.0.3"
+    "lerp": "^1.0.3",
+    "uglify-js": "^2.4.23"
   },
   "scripts": {
     "test": "node test.js",
-    "start": "budo demo.js:bundle.js --live --verbose -- | garnish"
+    "start": "budo demo.js:bundle.js --live --verbose -- | garnish",
+    "build": "browserify demo.js | uglifyjs -cm > bundle.js"
   },
   "keywords": [
     "light",
