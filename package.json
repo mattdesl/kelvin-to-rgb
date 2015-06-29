@@ -1,6 +1,6 @@
 {
   "name": "kelvin-to-rgb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "approximate an RGB color from a Kelvin temperature",
   "main": "index.js",
   "license": "MIT",
@@ -9,8 +9,7 @@
     "email": "dave.des@gmail.com",
     "url": "https://github.com/mattdesl"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "add-commas": "0.0.4",
     "color-style": "^1.0.0",
